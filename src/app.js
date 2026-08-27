@@ -9,11 +9,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/testeurs", (req, res) => {
-  return res.status(200).json({ message: "Il est 15h12" });
-});
-
-app.get("/pullrequest", (req, res) => {
-  return res.status(200).json({ message: "Création d'une pull request" });
+  return res.status(200).json({ message: "Il est 15h12." });
 });
 
 app.listen(PORT, () =>
