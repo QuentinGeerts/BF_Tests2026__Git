@@ -1,0 +1,15 @@
+{
+  "name": "bf_tests2026__git",
+  "version": "1.0.0",
+  "description": "Démonstration d'un projet au travers de GIT",
+  "author": "Quentin",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "prod": "node --env-file=.env.production src/app.js",
+    "dev": "node --env-file=.env.development --watch src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
