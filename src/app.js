@@ -13,5 +13,5 @@ app.get("/testeurs", (req, res) => {
 })
 
 app.listen(PORT, () => 
-  console.log(`Web API is running on http://localhost:${PORT}/`)
+  console.log(`Web API is running on http://localhost:${PORT}/`), 
 );
