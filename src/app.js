@@ -8,6 +8,10 @@ app.get("/", (req, res) => {
   return res.status(200).json({ message: "Hello World !" });
 });
 
+app.get("/testeurs", (req, res) => {
+  return res.status(200).json({ message: "Il est 14h25" });
+})
+
 app.listen(PORT, () => 
   console.log(`Web API is running on http://localhost:${PORT}/`)
 );
