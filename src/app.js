@@ -1,8 +1,8 @@
 import express from "express";
 
 const app = express();
-const PORT = process.env.PORT;
-const NODE_ENV = process.env.NODE_ENV;
+const PORT = process.env.PORT || 3000;
+const NODE_ENV = process.env.NODE_ENV || "development";
 
 app.get("/", (req, res) => {
   return res.status(200).json({ message: "Hello World !" });
